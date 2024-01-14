@@ -1,6 +1,7 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import FlatList from './components/Jan13/FlatList';
+import {SafeAreaView, ScrollView} from 'react-native';
+import FlaxBox from './components/Jan14/FlaxBox';
+//import FlatList from './components/Jan13/FlatList';
 //import {ImageBackground, SafeAreaView} from 'react-native';
 //import ActivityAndicator from './components/Jan12/ActivityAndicator';
 //import Preseble from './components/Jan12/Preseble';
@@ -32,19 +33,23 @@ function app() {
     // <ImageBackground source={img} resizeMode="cover" style={{flex: 1}}>
 
     // </ImageBackground>
+
     <SafeAreaView>
-      {/* <TextSample />
-     <ImageField /> */}
-      {/* <TextExample />
-     <ButtonCreate /> */}
-      {/* <ScrollItems /> */}
-      {/* <Preseble /> */}
-      {/* <CreateKeybordAvoi /> */}
-      {/* <ActivityAndicator /> */}
-      {/* <Props />
-      <Use /> */}
-      {/* <UseEffectEx /> */}
-      <FlatList />
+      <ScrollView>
+        {/* <TextSample />
+        <ImageField /> */}
+        {/* <TextExample />
+        <ButtonCreate /> */}
+        {/* <ScrollItems /> */}
+        {/* <Preseble /> */}
+        {/* <CreateKeybordAvoi /> */}
+        {/* <ActivityAndicator /> */}
+        {/* <Props />
+        <Use /> */}
+        {/* <UseEffectEx /> */}
+        {/* <FlatList /> */}
+        <FlaxBox />
+      </ScrollView>
     </SafeAreaView>
   );
 }

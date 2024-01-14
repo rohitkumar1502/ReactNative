@@ -17,7 +17,7 @@ const DATA = [
 const FlatList = () => {
   return (
     <View>
-      <Text>Rohit</Text>
+      <Text>Rohit Kumar</Text>
     </View>
   );
 };
