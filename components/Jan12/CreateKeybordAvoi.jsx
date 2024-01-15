@@ -28,15 +28,19 @@ const CreateKeybordAvoi = () => {
   );
 };
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
   inner: {
     padding: 24,
+    flex: 1,
+    justifyContent: 'space-around',
   },
   user: {
     fontSize: 36,
-    marginBottom: 400,
   },
   textInput: {
-    height: 30,
+    height: 40,
     borderColor: '#000000',
     borderBottomWidth: 1,
     marginBottom: 36,

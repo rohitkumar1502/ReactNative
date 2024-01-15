@@ -1,7 +1,9 @@
 import React from 'react';
-import {SafeAreaView, ScrollView} from 'react-native';
-import FlaxBox from './components/Jan14/FlaxBox';
-//import FlatList from './components/Jan13/FlatList';
+import {SafeAreaView} from 'react-native';
+//import IntroSlider from './components/Jan15/IntroSlider';
+//import FlaxBox from './components/Jan14/FlaxBox';
+//import HorizentalScroll from './components/Jan14/HorizentalScroll';
+import FlatList from './components/Jan13/FlatList';
 //import {ImageBackground, SafeAreaView} from 'react-native';
 //import ActivityAndicator from './components/Jan12/ActivityAndicator';
 //import Preseble from './components/Jan12/Preseble';
@@ -34,22 +36,26 @@ function app() {
 
     // </ImageBackground>
 
+    // <IntroSlider />
     <SafeAreaView>
-      <ScrollView>
-        {/* <TextSample />
+      {/* <ScrollView> */}
+      {/* <TextSample />
         <ImageField /> */}
-        {/* <TextExample />
+      {/* <TextExample />
         <ButtonCreate /> */}
-        {/* <ScrollItems /> */}
-        {/* <Preseble /> */}
-        {/* <CreateKeybordAvoi /> */}
-        {/* <ActivityAndicator /> */}
-        {/* <Props />
+      {/* <ScrollItems /> */}
+      {/* <CreateKeybordAvoi /> */}
+      {/* <Preseble /> */}
+      {/* <CreateKeybordAvoi /> */}
+      {/* <ActivityAndicator /> */}
+      {/* <Props />
         <Use /> */}
-        {/* <UseEffectEx /> */}
-        {/* <FlatList /> */}
-        <FlaxBox />
-      </ScrollView>
+      {/* <UseEffectEx /> */}
+      <FlatList />
+
+      {/* <FlaxBox />
+        <HorizentalScroll /> */}
+      {/* </ScrollView> */}
     </SafeAreaView>
   );
 }

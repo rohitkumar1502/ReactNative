@@ -1,0 +1,21 @@
+ // <SafeAreaView>
+      {/* <ScrollView> */}
+      {/* <TextSample />
+        <ImageField /> */}
+      {/* <TextExample />
+        <ButtonCreate /> */}
+      {/* <ScrollItems /> */}
+      {/* <CreateKeybordAvoi /> */}
+      {/* <Preseble /> */}
+      {/* <CreateKeybordAvoi /> */}
+      {/* <ActivityAndicator /> */}
+      {/* <Props />
+        <Use /> */}
+      {/* <UseEffectEx /> */}
+      {/* <FlatList /> */}
+
+      {/* <FlaxBox />
+        <HorizentalScroll /> */}
+      // <IntroSlider />
+      {/* </ScrollView> */}
+    // </SafeAreaView>
