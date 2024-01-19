@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StatusBar, StyleSheet, Text, View} from 'react-native';
 const DATA = [
   {
     id: '1',
@@ -21,17 +21,28 @@ const Item = ({title}) => {
 };
 const FlatList = () => {
   return (
-    <View>
+    <SafeAreaView style={styles.container}>
       <FlatList
         data={DATA}
-        rederItem={({item}) => <Item title={item.title} />}
+        renderItem={({item}) => <Item title={item.title} />}
         keyExtractor={item => item.id}
       />
-    </View>
+    </SafeAreaView>
   );
 };
 const styles = StyleSheet.create({
-  item: {},
-  title: {},
+  container: {
+    flex: 1,
+    marginTop: StatusBar.currentHeight || 0,
+  },
+  item: {
+    backgroundColor: 'pink',
+    padding: 10,
+    marginVertical: 8,
+    marginHorizontal: 16,
+  },
+  title: {
+    fontSize: 32,
+  },
 });
 export default FlatList;
