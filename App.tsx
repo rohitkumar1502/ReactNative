@@ -110,16 +110,47 @@
 
 // export default App;
 
-import {View} from 'react-native';
-import React from 'react';
-import PlatformSoecficExtension from './components/Jan18/PlatformSoecficExtension';
+// import {View} from 'react-native';
+// import React from 'react';
+// import PlatformSoecficExtension from './components/Jan18/PlatformSoecficExtension';
 
-const App = () => {
-  return (
-    <View>
-      <PlatformSoecficExtension />
-    </View>
-  );
-};
+// const App = () => {
+//   return (
+//     <View>
+//       <PlatformSoecficExtension />
+//     </View>
+//   );
+// };
 
-export default App;
+// export default App;
+// import {View, SafeAreaView} from 'react-native';
+// import React from 'react';
+// import Style from './components/Jan22/style';
+
+// const App = () => {
+//   return (
+//     <SafeAreaView>
+//       <View>
+//         <Style />
+//       </View>
+//     </SafeAreaView>
+//   );
+// };
+
+// export default App;
+
+// import {} from 'react-native';
+// import React, {Component} from 'react';
+// import HeightAndWidth from './components/Jan22/HeightAndWidth';
+
+// export class App extends Component {
+//   render() {
+//     return (
+//       <>
+//         <HeightAndWidth />
+//       </>
+//     );
+//   }
+// }
+
+// export default App;
