@@ -257,31 +257,22 @@
 //   },
 // });
 
-// import {SafeAreaView} from 'react-native';
-// import React from 'react';
-// import StylingCard from './components/Jan24/StylingCard';
-
-// const App = () => {
-//   return (
-//     <>
-//       <SafeAreaView>
-//         <StylingCard />
-//       </SafeAreaView>
-//     </>
-//   );
-// };
-
-// export default App;
-
-import { View, Text } from 'react-native'
-import React from 'react'
+import {SafeAreaView, ScrollView} from 'react-native';
+import React from 'react';
+import StylingCard from './components/Jan24/StylingCard';
+import ActionCard from './components/Jan26/ActionCard';
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
-}
+    <>
+      <SafeAreaView>
+        <ScrollView>
+          <StylingCard />
+          <ActionCard />
+        </ScrollView>
+      </SafeAreaView>
+    </>
+  );
+};
 
-export default App
+export default App;
